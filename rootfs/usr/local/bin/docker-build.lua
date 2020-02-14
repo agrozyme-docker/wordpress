@@ -2,8 +2,8 @@
 local core = require("docker-core")
 
 local function wp_cli_setup(bin)
-  core.run("wget -q -O %s/wp.phar https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar", bin)
-  core.run("chmod +x %s/wp.phar", bin)
+  core.run("wget -q -O %s/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar", bin)
+  core.run("chmod +x %s/wp", bin)
 end
 
 local function main()
