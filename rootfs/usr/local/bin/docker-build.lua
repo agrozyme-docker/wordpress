@@ -7,7 +7,7 @@ local function wp_cli_setup(bin)
 end
 
 local function main()
-  local bin = "/usr/bin"
+  local bin = "/usr/local/bin"
   local www = "/var/www"
   local project = "/tmp/wordpress"
   local version = "5.3.2"
